@@ -19,6 +19,8 @@ namespace Mvc4App.Controllers
         {
             ViewBag.Message = "Your app description page.";
 
+            var c = "";
+
             return View();
         }
 
