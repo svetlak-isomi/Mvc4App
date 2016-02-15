@@ -40,6 +40,8 @@ namespace Mvc4App.Controllers
                 return RedirectToLocal(returnUrl);
             }
 
+            var a = "";
+
             // If we got this far, something failed, redisplay form
             ModelState.AddModelError("", "The user name or password provided is incorrect.");
             return View(model);
