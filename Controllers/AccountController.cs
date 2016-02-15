@@ -40,6 +40,7 @@ namespace Mvc4App.Controllers
                 return RedirectToLocal(returnUrl);
             }
 
+            // Comment in Vyvoj1 branche
             var a = "";
             var b = "";
 
